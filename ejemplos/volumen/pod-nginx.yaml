@@ -18,9 +18,6 @@ spec:
   - name: home
     hostPath:
       path: /home/debian
-  - name: git
-    gitRepo:
-      repository: https://github.com/josedom24/kubernetes.git
   - name: temp
     emptyDir: {}
       
